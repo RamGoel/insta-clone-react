@@ -8,7 +8,7 @@ function Login() {
 
     var bottomLinks=['Meta','About','Blog','Jobs','Help','API','Privacy','Terms','Top Accounts','Locations','Instagram Lite','Contact Uploading & Non-Users','Meta Verified']
     return (
-        <div>
+        <div className='bg-white'>
 
         <div className='d-flex align-items-center fullH justify-content-center' >
             <div className="col-6 d-flex">
@@ -29,7 +29,7 @@ function Login() {
 
                                 <input type="text" placeholder='Phone number, username or email' className="form-control my-2" />
                                 <input type="text" placeholder="Password" className="form-control my-2" />
-                                <button className='btn'>Log in</button>
+                                <Link to="/Home" className='btn'>Log in</Link>
                             </div>
 
                             <div className='d-flex align-items-center'>

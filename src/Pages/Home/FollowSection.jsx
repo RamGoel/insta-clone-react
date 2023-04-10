@@ -24,24 +24,24 @@ function FollowSection() {
         {
             username: "patel_sir_245",
             image: profileImage,
-            btnText: "follow",
+            btnText: "Follow",
             tagline: 'Suggested for you'
         }, {
             username: 'Search',
             image: profileImage,
-            btnText: "follow",
+            btnText: "Follow",
             tagline: 'search'
         },
         {
             username: "Explore",
             image: profileImage,
-            btnText: "follow",
+            btnText: "Follow",
             tagline: "compass"
         },
         {
             username: "Reels",
             image: profileImage,
-            btnText: "follow",
+            btnText: "Follow",
             tagline: 'camera',
         }
     ]
