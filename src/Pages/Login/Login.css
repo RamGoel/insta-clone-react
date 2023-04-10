@@ -1,0 +1,25 @@
+.form-control, .btn{
+    font-size: 9px;
+    margin: 10px auto;
+}
+
+.smallText{
+    font-size: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.btn{
+    background-color: #4cb5f9;
+    color: white;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 11px;
+    width: 100%;
+}
+
+
+.fullH{
+    height: 89vh;
+  }
