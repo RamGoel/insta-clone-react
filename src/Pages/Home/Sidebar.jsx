@@ -44,7 +44,7 @@ function Sidebar() {
         }
     ]
   return (
-    <div className='col-2 ' style={{height:'100vh'}}>
+    <div className='col-2 sidebar' style={{height:'95vh'}}>
         <div className='col-7 py-3  px-2 mr-auto '>
 
         <img src="https://thumbs.dreamstime.com/b/print-204012277.jpg" width={'100%'} alt="" />
