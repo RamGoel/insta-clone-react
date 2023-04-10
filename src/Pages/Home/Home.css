@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+
+.sidebar-item:hover{
+    border-radius: 200px;
+    background-color: #3d3d3d27;
+    transition: 0.5s;
+    cursor: pointer;
+}

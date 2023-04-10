@@ -5,6 +5,8 @@ import storeIcon from '../../assets/store-icons.png'
 import './Login.css'
 import { Link } from 'react-router-dom'
 function Login() {
+
+    var bottomLinks=['Meta','About','Blog','Jobs','Help','API','Privacy','Terms','Top Accounts','Locations','Instagram Lite','Contact Uploading & Non-Users','Meta Verified']
     return (
         <div>
 
@@ -61,19 +63,13 @@ function Login() {
             </div>
         </div>
             <div className='d-flex col-7 justify-content-around mx-auto align-items-center p-2'>
-                <Link className='smallText text-dark text-decoration-none'>Meta</Link>
-                <Link className='smallText text-dark text-decoration-none'>About</Link>
-                <Link className='smallText text-dark text-decoration-none'>Blog</Link>
-                <Link className='smallText text-dark text-decoration-none'>Jobs</Link>
-                <Link className='smallText text-dark text-decoration-none'>Help</Link>
-                <Link className='smallText text-dark text-decoration-none'>API</Link>
-                <Link className='smallText text-dark text-decoration-none'>Privacy</Link>
-                <Link className='smallText text-dark text-decoration-none'>Terms</Link>
-                <Link className='smallText text-dark text-decoration-none'>Top Accounts</Link>
-                <Link className='smallText text-dark text-decoration-none'>Locations</Link>
-                <Link className='smallText text-dark text-decoration-none'>Instagram Lite</Link>
-                <Link className='smallText text-dark text-decoration-none'>Contact Uploading & Non-Users</Link>
-                <Link className='smallText text-dark text-decoration-none'>Meta Verified</Link>
+                {
+                    bottomLinks.map(linkName=>{
+                        return <Link className='smallText text-dark text-decoration-none'>{linkName}</Link>
+                    })
+                }
+                
+                
             </div>
 
             <div className='col-2 mx-auto '>
